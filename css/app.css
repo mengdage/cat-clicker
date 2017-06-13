@@ -1,3 +1,18 @@
-.catImg {
+body {
+  margin: 0;
+}
+h1, h2 {
+  margin-bottom: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.catContainer {
+  float: left;
   width: 50%;
+  display: inline-block;
+}
+.catImg {
+  width: 100%;
+  padding: 5px;
 }
