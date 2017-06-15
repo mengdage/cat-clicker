@@ -20,17 +20,13 @@ h1, h2 {
   border: 1px solid #efefef;
   border-radius: 5px;
   display: inline-block;
-  text-align: center;
-  background-color: #dedede;
-
-}
-
-.catsList .catBtn {
   text-decoration: none;
   text-align: center;
-  color: #000;
-
+  color: #000;background-color: #dedede;
+  cursor: pointer;
+  width: 100px;
 }
+
 .catContainer {
   /*max-width: 50%;*/
   width: 100%;

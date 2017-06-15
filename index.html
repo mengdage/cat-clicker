@@ -6,7 +6,10 @@
     <link rel="stylesheet" media="screen" href="css/app.css">
   </head>
   <body>
-    <div data-bind="with: currentCat">
+    <ul class="catsList" data-bind="foreach: catList">
+      <li class="catItem" href="#" data-bind="text: name, click: $parent.changeCurrentCat"></li>
+    </ul>
+    <div class="catContainer" data-bind="with: currentCat">
       <h1 data-bind="text: name"></h1>
       <p data-bind="text: clickCount"></p>
       <p data-bind="text: title"></p>
